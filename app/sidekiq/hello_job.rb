@@ -1,7 +1,7 @@
 class HelloJob
   include Sidekiq::Job
 
-  def perform(*args)
-    # Do something
+  def perform(id)
+    Book.find(id).update(title: "Hello")
   end
 end
