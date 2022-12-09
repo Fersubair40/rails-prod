@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ffb87a27-7909-4490-a176-b3b78286f2b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/test-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +272,7 @@
       <workItem from="1670519646103" duration="35000" />
       <workItem from="1670519763094" duration="1892000" />
       <workItem from="1670522448894" duration="6231000" />
-      <workItem from="1670575874647" duration="321000" />
+      <workItem from="1670575874647" duration="898000" />
     </task>
     <servers />
   </component>
