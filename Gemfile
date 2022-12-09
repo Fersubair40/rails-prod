@@ -17,6 +17,7 @@ gem 'capistrano-rails'
 gem 'capistrano-passenger'
 gem 'capistrano-rbenv'
 
+gem "passenger", ">= 5.3.2", require: "phusion_passenger/rack_handler"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
