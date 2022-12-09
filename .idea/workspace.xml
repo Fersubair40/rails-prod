@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb87a27-7909-4490-a176-b3b78286f2b4" name="Changes" comment="" />
+    <list default="true" id="ffb87a27-7909-4490-a176-b3b78286f2b4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/test-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,14 +53,34 @@
 }</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="bundle install" />
       <command value="rake db:create" />
       <command value="rails g scaffold" />
       <command value="rake db:migrate" />
       <command value="rails g sidekiq:job" />
+      <command value="cap install STAGES=production" />
+      <command value="bundle install" />
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: test-api">
+  <component name="RunManager" selected="Capistrano.cap install STAGES=production">
+    <configuration name="cap install STAGES=production" type="CapistranoRunConfigurationType" factoryName="Capistrano" temporary="true">
+      <module name="test-api" />
+      <CAPISTRANO_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="" />
+      <CAPISTRANO_RUN_CONFIGURATION NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CAPISTRANO_RUN_CONFIGURATION NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CAPISTRANO_RUN_CONFIGURATION NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CAPISTRANO_RUN_CONFIGURATION NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <CAPISTRANO_RUN_CONFIG_SETTINGS_ID NAME="CAPISTRANO_TASK_NAME" VALUE="STAGES=production" />
+      <CAPISTRANO_RUN_CONFIG_SETTINGS_ID NAME="CAPISTRANO_TASK_ARGS" VALUE="" />
+      <CAPISTRANO_RUN_CONFIG_SETTINGS_ID NAME="CAPISTRANO_STAGE" VALUE="install" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="RackRunConfigurationType" factoryName="Rack">
       <RACK_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RACK_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
@@ -227,6 +252,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Capistrano.cap install STAGES=production" />
         <item itemvalue="Rake.db:migrate: test-api" />
         <item itemvalue="Rake.db:create: test-api" />
       </list>
@@ -248,7 +274,8 @@
       <workItem from="1670519586136" duration="23000" />
       <workItem from="1670519646103" duration="35000" />
       <workItem from="1670519763094" duration="1892000" />
-      <workItem from="1670522448894" duration="1020000" />
+      <workItem from="1670522448894" duration="6231000" />
+      <workItem from="1670575874647" duration="321000" />
     </task>
     <servers />
   </component>
@@ -267,8 +294,9 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/test_api@cap_install_STAGES_production.rcov" NAME="cap install STAGES=production Coverage Results" MODIFIED="1670574286908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test-api" />
     <SUITE FILE_PATH="coverage/test_api@db_create__test_api.rcov" NAME="db:create: test-api Coverage Results" MODIFIED="1670520199681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test-api" />
     <SUITE FILE_PATH="coverage/test_api@db_migrate__test_api.rcov" NAME="db:migrate: test-api Coverage Results" MODIFIED="1670520279435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test-api" />
-    <SUITE FILE_PATH="coverage/test_api@Development__test_api.rcov" NAME="Development: test-api Coverage Results" MODIFIED="1670523553623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test-api" />
+    <SUITE FILE_PATH="coverage/test_api@Development__test_api.rcov" NAME="Development: test-api Coverage Results" MODIFIED="1670527898339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test-api" />
   </component>
 </project>

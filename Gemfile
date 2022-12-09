@@ -7,12 +7,15 @@ ruby "3.1.2"
 gem "rails", "~> 7.0.4"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4"
+gem "pg", "~> 1.1"
 
 # Use the Puma web server [https://github.com/puma/puma]
 
 gem "sidekiq", "7.0.1"
-gem "passenger", ">= 5.3.2", require: "phusion_passenger/rack_handler"
+gem 'capistrano'
+gem 'capistrano-rails'
+gem 'capistrano-passenger'
+gem 'capistrano-rbenv'
 
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
