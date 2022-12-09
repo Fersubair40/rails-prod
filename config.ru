@@ -2,16 +2,16 @@
 
 require_relative "config/environment"
 
-if defined?(PhusionPassenger)
+if defined?(Capistrano::Passenger)
   sq = nil
-  PhusionPassenger.on_event(:starting_worker_process) do
+  Capistrano::Passenger.on_event(:starting_worker_process) do
     sq = Sidekiq.configure_embed do |config|
       config.queues = ['default']
       config.concurrency = 2
     end
     sq&.run
   end
-  PhusionPassenger.on_event(:stopping_worker_process)  do
+  Capistrano::Passenger.on_event(:stopping_worker_process)  do
     sq&.stop
   end
 end
