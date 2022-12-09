@@ -14,7 +14,7 @@ gem "pg", "~> 1.1"
 gem "sidekiq", "7.0.1"
 gem 'capistrano'
 gem 'capistrano-rails'
-gem 'capistrano-passenger'
+gem 'capistrano-passenger', require: "phusion_passenger/rack_handler"
 gem 'capistrano-rbenv'
 
 gem "passenger", ">= 5.3.2", require: "phusion_passenger/rack_handler"

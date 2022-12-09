@@ -122,7 +122,7 @@ GEM
       net-protocol
     net-ssh (7.0.1)
     nio4r (2.5.8)
-    nokogiri (1.13.9-arm64-darwin)
+    nokogiri (1.13.9)
       racc (~> 1.4)
     passenger (6.0.15)
       rack
@@ -181,7 +181,7 @@ GEM
     zeitwerk (2.6.6)
 
 PLATFORMS
-  arm64-darwin-21
+  ruby
 
 DEPENDENCIES
   bootsnap
