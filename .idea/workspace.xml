@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffb87a27-7909-4490-a176-b3b78286f2b4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ru" beforeDir="false" afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +46,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/temilayosubair/RubymineProjects/test-api&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -272,7 +279,14 @@
       <workItem from="1670519646103" duration="35000" />
       <workItem from="1670519763094" duration="1892000" />
       <workItem from="1670522448894" duration="6231000" />
-      <workItem from="1670575874647" duration="6932000" />
+      <workItem from="1670575874647" duration="7960000" />
+      <workItem from="1670657405675" duration="3000" />
+      <workItem from="1670773084313" duration="1554000" />
+      <workItem from="1670879254914" duration="43000" />
+      <workItem from="1670879405654" duration="325000" />
+      <workItem from="1670884189828" duration="269000" />
+      <workItem from="1670885320927" duration="1190000" />
+      <workItem from="1670886561204" duration="4000" />
     </task>
     <servers />
   </component>

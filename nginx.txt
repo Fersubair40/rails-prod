@@ -1,0 +1,38 @@
+server {
+  listen 443 ssl;
+
+  server_name sp.carvivafuelwallet.com;
+
+  ssl_certificate /etc/letsencrypt/live/sp.carvivafuelwallet.com/fullchain.pem;
+  ssl_certificate_key  /etc/letsencrypt/live/sp.carvivafuelwallet.com/privkey.pem;
+
+  root /home/deploy/fuelwallet/current/public;
+
+  passenger_enabled on;
+  passenger_app_env production;
+
+  access_log /var/log/nginx/app.access.log;
+  error_log /var/log/nginx/app.error.log;
+
+    location / {
+        try_files $uri/index.html $uri @app;
+    }
+
+  # Allow uploads up to 100MB in size
+  client_max_body_size 100m;
+
+  location ~ ^/(assets|packs) {
+    expires max;
+    gzip_static on;
+  }
+
+  	# this rewrites all the requests to the maintenance.html
+  	# page if it exists in the doc root. This is for capistrano's
+  	# disable web task
+  	if (-f $document_root/system/maintenance.html)
+  	{
+  	  rewrite  ^(.*)$  /system/maintenance.html last;
+  	  break;
+  	}
+
+}
